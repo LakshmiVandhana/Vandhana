@@ -1,1 +1,31 @@
+Linux File System
+A Linux file system is a structured collection of files on a disk drive or a partition. A partition is a segment of memory and contains some specific data. In our machine, there can be various partitions of the memory. Generally, every partition contains a file system.
 
+The general-purpose computer system needs to store data systematically so that we can easily access the files in less time. It stores the data on hard disks (HDD) or some equivalent storage type. There may be below reasons for maintaining the file system:
+
+Primarily the computer saves data to the RAM storage; it may lose the data if it gets turned off. However, there is non-volatile RAM (Flash RAM and SSD) that is available to maintain the data after the power interruption.
+Data storage is preferred on hard drives as compared to standard RAM as RAM costs more than disk space. The hard disks costs are dropping gradually comparatively the RAM.
+The Linux
+file system contains the following sections:
+
+The root directory (/)
+A specific data storage format (EXT3, EXT4, BTRFS, XFS and so on)
+A partition or logical volume having a particular file system.
+What is the Linux File System?
+Linux file system is generally a built-in layer of a Linux operating system
+used to handle the data management of the storage. It helps to arrange the file on the disk storage. It manages the file name, file size, creation date, and much more information about a file.
+
+If we have an unsupported file format in our file system, we can download software to deal with it.
+
+Linux File System Structure
+Linux file system has a hierarchal file structure as it contains a root directory and its subdirectories. All other directories can be accessed from the root directory. A partition usually has only one file system, but it may have more than one file system.
+
+A file system is designed in a way so that it can manage and provide space for non-volatile storage data. All file systems required a namespace that is a naming and organizational methodology. The namespace defines the naming process, length of the file name, or a subset of characters that can be used for the file name. It also defines the logical structure of files on a memory segment, such as the use of directories for organizing the specific files. Once a namespace is described, a Metadata description must be defined for that particular file.
+
+The data structure needs to support a hierarchical directory structure; this structure is used to describe the available and used disk space for a particular block. It also has the other details about the files such as file size, date & time of creation, update, and last modified.
+
+Also, it stores advanced information about the section of the disk, such as partitions and volumes.
+
+The advanced data and the structures that it represents contain the information about the file system stored on the drive; it is distinct and independent of the file system metadata.
+
+Linux file system contains two-part file system software implementation architecture. Consider the below image:
