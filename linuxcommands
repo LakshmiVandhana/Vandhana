@@ -1,0 +1,9 @@
+pwd=print working directory
+cd=change current working directory
+ls=to see the files and folders
+ls-l=to see the files and folders line by line
+touch=to create file
+ls-l|more=one page at a time
+cat=to see the content in the file but not in the directory
+cd..=one step backward
+cd  =to go home folder ...
