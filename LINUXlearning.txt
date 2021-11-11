@@ -1,0 +1,4 @@
+Linux is a open source operating system.It is created by "Linus Torvalds"and it is a protable version.
+Linux is developed from unix.
+Before linux there is unix.Most of the organizations use unix before linux.
+Linux can be modified by anyone and source is available for anyone.  
