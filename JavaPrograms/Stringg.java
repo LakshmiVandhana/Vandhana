@@ -7,8 +7,8 @@ class Stringg
   String str = scan.nextLine();
   String a = str.substring(0,1).toUpperCase() + str.substring(1);
 
-  //int n = scan.nextInt();
-  //for(int i=0;i<str.length();i++)
+  int n = scan.nextInt();
+  for(int i=0;i<str.length();i++)
   System.out.println(a);
   scan.close();
  }
